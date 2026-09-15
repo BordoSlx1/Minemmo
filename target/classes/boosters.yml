@@ -1,0 +1,57 @@
+# ============================================================
+# MineMMO-Core
+# Booster Configuration
+# ============================================================
+
+boosters:
+
+  test_booster:
+
+    # Booster görünen adı
+    display-name: "§aHız Takviyesi"
+
+    # Booster item materyali
+    material: "EMERALD"
+
+    # Booster türü
+    # PASSIVE
+    # PARTY
+    # CONSUMABLE
+    type: "PASSIVE"
+
+    # Süre saniye cinsinden.
+    # 0 = süresiz
+    duration: 20
+
+    # Booster efekti
+    effect:
+
+      # NONE
+      # SPEED
+      # STRENGTH
+      # HASTE
+      # JUMP_BOOST
+      # REGENERATION
+      # FIRE_RESISTANCE
+      # NIGHT_VISION
+      # WATER_BREATHING
+      # LUCK
+      type: "SPEED"
+
+      # Minecraft amplifier:
+      # 0 = I
+      # 1 = II
+      # 2 = III
+      level: 1
+
+    # Normal envanterde görünen lore
+    lore:
+      - "§7Hareket hızınızı artırır."
+      - ""
+      - "§eSağ tıkla kullan."
+
+    # /takviyeler deposunda görünen lore
+    storage-lore:
+      - "§7Hareket hızınızı artırır."
+      - ""
+      - "§eSağ tıkla: Takviyeyi envantere çıkar"

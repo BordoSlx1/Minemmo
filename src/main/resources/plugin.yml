@@ -1,0 +1,25 @@
+name: MineMMO-Core
+version: 0.5.0
+main: tr.minemmo.core.MineMMOCore
+description: Projects.gg tarzı Survival MMO çekirdek sistemi.
+author: MineMMO Development
+api-version: '26.1'
+
+commands:
+  minemmo:
+    description: MineMMO-Core ana komutu.
+    usage: /minemmo [info]
+    permission: minemmo.admin
+
+  takviyeler:
+    description: Takviye deposunu açar.
+    usage: /takviyeler
+
+permissions:
+  minemmo.admin:
+    description: MineMMO-Core yönetim komutlarını kullanma yetkisi.
+    default: op
+
+softdepend:
+  - MythicMobs
+  - BloodMoon-Reborn

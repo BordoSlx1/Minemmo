@@ -1,0 +1,28 @@
+
+# ============================================================
+# MineMMO-Core
+# Core Configuration
+# Version: 0.1.0
+# ============================================================
+
+settings:
+
+  # Debug mesajları
+  debug: false
+
+  # Dil
+  language: tr_TR
+
+
+# ============================================================
+# Integrations
+# ============================================================
+
+integrations:
+
+  mythicmobs:
+    enabled: true
+
+  bloodmoon-reborn:
+    enabled: true
+
